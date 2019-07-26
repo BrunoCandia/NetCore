@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>NetCore2</name>
+    </assembly>
+    <members>
+        <member name="M:NetCore2.Controllers.ValuesController.Get(System.Int32)">
+            <summary>
+            Get by Id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
