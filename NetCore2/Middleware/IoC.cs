@@ -1,6 +1,8 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 using NetCore2.Client;
 using NetCore2.Client.Interfaces;
+using NetCore2.Helpers;
+using NetCore2.Helpers.Interfaces;
 using NetCore2.Services;
 using NetCore2.Services.Interfaces;
 using System;
@@ -21,6 +23,8 @@ namespace NetCore2.Middleware
             services.AddScoped<IYoutubeClient, YoutubeClient>();
 
             services.AddScoped<IYoutubeService, YoutubeService>();
+
+            services.AddScoped<IUserService, UserService>();
 
             return services;
         }
